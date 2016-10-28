@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial';
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#app {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.weather {
+  background-color: rgba(3, 3, 3, 0.1);
+  padding: 2rem;
+  font-size: 1.8rem;
+}
+
+section {
+  flex: 1;
+  padding: 10rem;
+}
+
+.cloudy {
+  background: linear-gradient(180deg, #858584, #5b89a2);
+}
+
+.sunny {
+  background: linear-gradient(180deg, #BBDEFB, #FFF59D);
+}
+
+.btn {
+  padding: 1rem;
+  border: 0;
+  border-radius: 0;
+  background-color: gold;
+  color: #444;
+  font-size: 1.2rem;
+  display: inline-block;
+}
